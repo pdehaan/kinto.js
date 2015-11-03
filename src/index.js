@@ -2,8 +2,8 @@
 
 import { EventEmitter } from "events";
 
-import "babel/polyfill";
 import "isomorphic-fetch";
+import "babel-polyfill";
 
 import BaseAdapter from "./adapters/base";
 import LocalStorage from "./adapters/LocalStorage";
