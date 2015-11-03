@@ -5,7 +5,7 @@ import BaseAdapter from "./base.js";
 /**
  * IndexedDB adapter.
  */
-export default class IDB extends BaseAdapter {
+class IDB extends BaseAdapter {
   /**
    * Constructor.
    *
@@ -259,3 +259,5 @@ export default class IDB extends BaseAdapter {
     });
   }
 }
+
+export default IDB;

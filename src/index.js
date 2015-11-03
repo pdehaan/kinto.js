@@ -11,7 +11,7 @@ import IDB from "./adapters/IDB";
 
 import KintoBase from "./KintoBase";
 
-export default class Kinto extends KintoBase {
+class Kinto extends KintoBase {
   /**
    * Provides a public access to the base adapter classes. Users can create
    * a custom DB adapter by extending BaseAdapter.
@@ -35,3 +35,5 @@ export default class Kinto extends KintoBase {
     super(Object.assign({}, defaults, options));
   }
 }
+
+export default Kinto;

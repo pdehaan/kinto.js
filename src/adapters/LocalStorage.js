@@ -12,7 +12,7 @@ if (!root.hasOwnProperty("localStorage")) {
 /**
  * LocalStorage adapter.
  */
-export default class LocalStorage extends BaseAdapter {
+class LocalStorage extends BaseAdapter {
   /**
    * Constructor.
    *
@@ -214,3 +214,5 @@ export default class LocalStorage extends BaseAdapter {
     }
   }
 }
+
+export default LocalStorage;
